@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FancyReceipt {
+public class Checkout {
     public String custID;
 
     public String item1, item2, item3, item4, item5, item6;
@@ -11,8 +11,9 @@ public class FancyReceipt {
     public boolean nextCustom()
     {
         greet();
-        while (!done){
-        scanItems();
+        while (!done)
+        {
+            scanItems();
         }
         checkout();
         return fin;
@@ -31,6 +32,6 @@ public class FancyReceipt {
 
     public void checkout()
     {
-        System.out.println("Pay me");
+        System.out.println("Insert Card");
     }
 }
