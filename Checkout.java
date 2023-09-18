@@ -27,6 +27,7 @@ public class Checkout {
     public void scanItems()
     {
         System.out.println("Scan the next item");
+
         done = true;
     }
 
