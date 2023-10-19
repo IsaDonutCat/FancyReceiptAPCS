@@ -8,6 +8,10 @@ public class Checkout {
     public boolean done = false;
     public boolean fin = false;
 
+    
+    /** 
+     * @return boolean
+     */
     public boolean nextCustom()
     {
         greet();
